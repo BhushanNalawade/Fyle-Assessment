@@ -1,0 +1,47 @@
+.workout-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Add spacing between form fields */
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 16px; /* Add padding around the form */
+    background-color: #f9f9f9; /* Set a light background color */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    overflow: hidden; /* Ensure content does not overflow the form */
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 8px; /* Add space between label and input */
+    font-weight: bold; /* Make labels bold */
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Ensure inputs take the full width */
+  }
+  
+  button {
+    padding: 10px 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 16px; /* Add top margin to separate the button from fields */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darken button color on hover */
+  }
+  
