@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+code Coverage Report:
+Statements   : 65.57% ( 40/61 )
+Branches     : 16.66% ( 2/12 )
+Functions    : 47.61% ( 10/21 )
+Lines        : 60.46% ( 26/43 )
